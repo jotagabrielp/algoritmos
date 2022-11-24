@@ -65,4 +65,14 @@ mdc: (a, b) => {
   },
 
 quicksort,
+contar: (n) => {
+  if(isNaN(n)) {
+    return;
+  }
+    let msg = "";
+    for (let i = 1; i <= n; i++) {
+      msg += i + " ";
+    }
+    return (msg);
+  }
 }
